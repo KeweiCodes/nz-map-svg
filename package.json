@@ -1,0 +1,27 @@
+{
+  "name": "nz-map-svg",
+  "version": "0.0.0",
+  "description": "Drop-in interactive SVG map of New Zealand by each region.",
+  "keywords": [],
+  "main": "index.js",
+  "author": "Kewei Jiang <jkewei328@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeweiCodes/nz-map-svg.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "npx webpack serve"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.3.1",
+    "typescript": "^3.0.3",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^4.11.0"
+  }
+}
