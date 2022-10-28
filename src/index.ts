@@ -92,6 +92,11 @@ class NZMapSVG {
           this.descriptionDisplay.textContent = regionID +': '+ regionDescription
         }
       );
+
+      // Sets description to generic message when mouse leaves map
+      regionElement.addEventListener('mouseleave', (e) => {
+        this.descriptionDisplay.textContent = "You're welcome";
+      });
     }
   }
 
