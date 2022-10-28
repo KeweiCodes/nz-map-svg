@@ -168,7 +168,14 @@ const options = {
     'GIS': "How do I get a job? Lets go to Auckland",
     'HKB': "Money don't grow on trees. Nope but apples do, and apples is $$",
     'NTL': "The rest of NZ is too cold",
-    'CAN': "We're NZ's biggest city, Auckland doesn't count"
+    'CAN': "We're NZ's biggest city, Auckland doesn't count",
+    'MBH': "One ring to rule them all",
+    'CIT': "One ring to find them",
+    'MWT': "Taking the hobbits to isengard",
+    'NSN': "You shall not pass",
+    'TKI': "Friends not foes",
+    'TAS': "Witchking of Angmar",
+    'WTC': "The white wizard"
   },
   colors: {
     'AUK': 'blue',
